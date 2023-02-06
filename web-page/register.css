@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(#006f8b 40%, #51ff00);
+	background-repeat: no-repeat;
+	height:900px;
+}
+
+.register {
+    font-size: 70px;
+	color:rgba(242, 255, 0, 0.971);
+	text-align: center;
+	margin-top: 60px;
+}
+
+.a {
+	background-color:aliceblue;
+	border: hidden;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+	width: 50%;
+	height: 400px;
+	padding-top: 80px;
+}
+
+.fontemail {
+	font-size: 30px;
+    font-family: sans-serif;
+}
+
+.fontpassword {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+input {
+	background-color: transparent;
+	border: 3px groove;
+	width: 60%;
+	padding: 3px;
+}
+
+.confirm {
+	background-color:rgba(169, 169, 169, 0.233);
+	width: 15%;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.forget {
+	font-size: 20px;
+	position: absolute;
+	left: 26.5%;
+	top: 520px;
+	font-family: sans-serif;
+}
+
+.login {
+    font-size: 20px;
+	position: absolute;
+	right: 26.5%;
+	top: 520px;
+	font-family: sans-serif;
+}
