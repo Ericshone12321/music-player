@@ -42,6 +42,8 @@ body {
 
 .forget {
 	font-size: 20px;
+	background-color: transparent;
+	width:160px;
 	position: absolute;
 	left: 26.5%;
 	top: 600px;
@@ -52,6 +54,7 @@ body {
 	font-size: 20px;
 	position: absolute;
 	right: 26.5%;
+	width:75px;
 	top: 600px;
 	font-family: sans-serif;
 }
@@ -65,7 +68,32 @@ input {
 
 .confirm {
 	background-color:rgba(169, 169, 169, 0.233);
-	width: 15%;
+	width: 70px;
 	margin-top: 20px;
 	cursor: pointer;
+}
+
+.forget:hover {
+	background-color:yellow;
+	border-radius:5px;
+	padding:0px 3px 0px 3px;
+	transition: background 2s;
+	color:red;
+}
+
+.register:hover {
+	background-color:yellow;
+	border-radius:5px;
+	padding:0px 3px 0px 3px;
+	transition: background 2s;
+	color:red;
+	border-width:75px;
+}
+
+.forget:active, .register:active{
+	color:blue;
+}
+
+.confirm:active {
+	background-color:gray;
 }
