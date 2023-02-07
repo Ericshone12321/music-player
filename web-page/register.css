@@ -47,7 +47,7 @@ input {
 
 .confirm {
 	background-color:rgba(169, 169, 169, 0.233);
-	width: 15%;
+	width: 70px;
 	margin-top: 20px;
 	cursor: pointer;
 }
@@ -57,6 +57,7 @@ input {
 	position: absolute;
 	left: 26.5%;
 	top: 520px;
+	width:160px;
 	font-family: sans-serif;
 }
 
@@ -65,5 +66,30 @@ input {
 	position: absolute;
 	right: 26.5%;
 	top: 520px;
+	width:55px;
 	font-family: sans-serif;
+}
+
+.login:hover {
+	background-color:yellow;
+	border-radius:5px;
+	padding:0px 3px 0px 3px;
+	transition: background 2s;
+	color:red;
+}
+
+.login:active, .forget:active {
+	color:blue;
+}
+
+.forget:hover {
+	background-color:yellow;
+	border-radius:5px;
+	padding:0px 3px 0px 3px;
+	transition: background 2s;
+	color:red;
+}
+
+.confirm:active {
+	background-color:gray;
 }
